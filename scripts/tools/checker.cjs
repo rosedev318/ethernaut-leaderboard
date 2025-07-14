@@ -1,5 +1,6 @@
 const getGameData = require("./getGameData.cjs");
 
+
 const evaluateTotalDifficultyInEthernautGame = async () => {
     const difficultyMap = await getGameData();
     let totalDifficulty = 0;
